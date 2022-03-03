@@ -24,3 +24,18 @@ body {
   line-height: 1.6;
   background: #fff;
 }
+
+
+.baner{
+  background-image:    url('../img/office.jpg');
+  background-size:     cover;                     
+  background-repeat:   no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
+
+.skills{
+  height: 500px;
+  background-color: rgb(236, 236, 236);
+}
+
