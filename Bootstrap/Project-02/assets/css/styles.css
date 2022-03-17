@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Vazir-Medium;
+  src: url("../fonts/Vazir-Medium.eot") format("eot"),
+    url("../fonts/Vazir-Medium.woff") format("woff"),
+    url("../fonts/Vazir-Medium.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir-Bold;
+  src: url("../fonts/Vazir-Bold.eot");
+  src: url("../fonts/Vazir-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir-Bold.woff2") format("woff2"),
+    url("../fonts/Vazir-Bold.woff") format("woff"),
+    url("../fonts/Vazir-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  direction: rtl;
+  text-align: right !important;
+  font-family: "Vazir-Medium" !important;
+  line-height: 1.6;
+  background: rgb(39, 39, 39);
+}
+
+
+.fa-facebook:hover{
+  color:rgb(255, 227, 190) !important;
+}
+.fa-instagram:hover{
+  color:rgb(255, 227, 190) !important;
+}
+.fa-telegram:hover{
+  color:rgb(255, 227, 190) !important;
+}
+.navbar{
+  border-bottom: solid red 2px;
+}
+
+#baner-01{
+  height: 70vh;
+  background: linear-gradient(rgba(20,20,20,0.3),rgba(20,20,20,0.7)), url('../img/home.jpg') no-repeat center center/cover;
+}
