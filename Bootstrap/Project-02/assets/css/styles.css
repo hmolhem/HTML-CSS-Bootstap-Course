@@ -43,3 +43,10 @@ body {
   height: 70vh;
   background: linear-gradient(rgba(20,20,20,0.3),rgba(20,20,20,0.7)), url('../img/home.jpg') no-repeat center center/cover;
 }
+
+#section-2 .fas{
+  background-color: aquamarine;
+  padding: 40px;
+  color:beige;
+  border-radius: 50%;
+}
